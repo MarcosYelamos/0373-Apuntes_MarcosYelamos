@@ -268,48 +268,63 @@ En al action se pone la URL a la que enviaran los datos y el method es el métod
 ```
 <br>
 
-aaaaaa
+El input es para crear diferentes tipos de campos en un formulario, campo de nombre, campo de contraseña...
 
+Dentro del input se pone el tipo de campo (type), un id (identificador para poder llamarlo), un nombre (name) y se puede poner un placeholder (es un texto por defecto que aparecerá en la casilla del formulario cuando este vacío).
 
+En el input hay muchos más atributos que se pueden poner. Ejs: value, required, disabled, readonly.
+
+El label es para hacer una etiqueta donde poner una palabra dentro que puede servir para indicar que hay que poner en el campo del formulario por ejemplo. El for es para indicar a que está haciendo referencia esa etiqueta.
 ```
 <label for="nombre">Nombre</label>
 <input type="text" id="nombre" name="nombre" placeholder="Introduze tu nombre"><br><br>
+
+<label for="password">Password</label>
+<input type="password" id="password" name="password" placeholder="Introduce tu contraseña"><br><br>
 ```
-       
+<br>
 
-        <fieldset>
-            <legend>Idioma</legend>
-            <label for="castellano">Castellano</label>
-            <input type="radio" id="castellano" name="idioma" value="Castellano">
+EL fieldset es para encuadrar.
 
-            <label for="castellano">Catalan</label>
-            <input type="radio" id="catalan" name="idioma" value="Catalan">
+El legend es para poner una legenda al recuadro, ponerle por ejemplo un título.
+```
+<fieldset>
+    <legend>Idioma</legend>
+    <label for="castellano">Castellano</label>
+    <input type="radio" id="castellano" name="idioma" value="Castellano">
 
-            <label for="castellano">Chino</label>
-            <input type="radio" id="chino" name="idioma" value="Chino">
-        </fieldset>
+    <label for="catalan">Catalan</label>
+    <input type="radio" id="catalan" name="idioma" value="Catalan">
 
-        
+    <label for="castellano">Chino</label>
+    <input type="radio" id="chino" name="idioma" value="Chino">
+</fieldset>
+```
+<br>
 
-        <label for="observaciones">Observaciones</label><br>
+EL textarea es para poner un campo en el que se puede escribir, le decimos el ancho(cols) y el alto(rows).
+```
+<label for="observaciones">Observaciones</label><br>
             
-        <textarea name="observaciones" id="observaciones" placeholder="Introduce tus comentarios" cols="80" rows="4">
-        </textarea>
-        <br>
-        
-        <label for="ciudad">Ciudad</label><br>
-        <select name="ciudad" id="ciudad">
-            <option value="" disabled>Seleccione una ciudad</option>
-            <option value="Barcelona">Barcelona</option>
-            <option value="Madrid">Madrid</option>
-            <option value="Valencia">Valencia</option>
-            <option value="Sevilla">Sevilla</option>
-            <option value="Granada">Granada</option>
-            <option value="Murcia">Murcia</option>
-        </select>
-        <br>
-        <br>
-        <button type="submit">Enviar datos</button> 
-    </form>
+<textarea name="observaciones" id="observaciones" placeholder="Introduce tus comentarios" cols="80" rows="4"></textarea>
 ```
+<br>
 
+El select es para hacer una lista de opciones y cada opción es un "option". EL value es el valor de esa opción. También tiene atributos como disabled, selected...
+```
+<select name="ciudad" id="ciudad">
+    <option value="" disabled>Seleccione una ciudad</option>
+    <option value="Barcelona">Barcelona</option>
+    <option value="Madrid">Madrid</option>
+    <option value="Valencia">Valencia</option>
+    <option value="Sevilla">Sevilla</option>
+    <option value="Granada">Granada</option>
+    <option value="Murcia">Murcia</option>
+</select>
+```
+<br>
+
+El button es para hacer tipos de botones. El type es para definir qué tipo de botón es. Dentro del type hay varios como podrían ser: submit (envía el formulario), reset (deja blanco el formulario, típico botón de volver a empezar por si te equivocas). Como atributos también tiene el name, el disabled, value.
+```
+<button type="submit">Enviar datos</button> 
+```
