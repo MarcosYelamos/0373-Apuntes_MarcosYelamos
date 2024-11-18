@@ -23,12 +23,12 @@ EL git init git branch (Para ver en que rama está el repositorio) git branch -M
 El git pull para traer de gtihub a mi ordenador.
 <br>
 <br>
-<br>
+
 #### PAGES
 Para hacer que un repositorio de github se transforme en pagina web iremos a configuración (settings), en el menú de la izquierda seleccionaremos pages.
 Seleccionamos la rama(Branch) Main y le damos a guardar (save). Al hacer esto y esperar un poco se nos creará un enlace a nuestra página.
-
-
+<br>
+<br>
 
 ## Segundo capítulo: Markdown 
 
