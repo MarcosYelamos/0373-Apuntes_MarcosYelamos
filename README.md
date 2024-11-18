@@ -166,4 +166,9 @@ Algunos elementos de linea y bloque:
 
 ![Esto es una foto de ejemplos](./img/comparacion.png "Esto es una tabla con varios elementos de linea y bloque")
 
-A la hora de hacer codigo HTMl queremos que haya unn orden para que sea legible asi que identaremso el codigo
+A la hora de hacer código HTML queremos que haya un orden para que sea legible así que habrá que tabular el código.
+
+No todas la setiquetas se cierran o se abren.
+<br>
+
+#### Organización de los archivos
