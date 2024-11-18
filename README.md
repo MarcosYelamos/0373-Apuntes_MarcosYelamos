@@ -102,6 +102,6 @@ Una tabla:
 |**ASIX1**|Curso 2425|33|
 |DAW2|Curso 2425|32|
 
-
+<br>
 ## Tercer capítulo: HTML 
 
