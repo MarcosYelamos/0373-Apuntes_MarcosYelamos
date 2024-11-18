@@ -260,13 +260,21 @@ id: Los utilizaremos para hacer enlaces en la misma página. Aquí debajo se pue
 <br>
 
 #### Formularios
-```
-<form action="recepcion.php" method="post"> --> Etiqueta para abrir el formulario, el action es apra poner la URL dopdne iran los datos del formulario.
-        <label for="nombre">Nombre</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Introduze tu nombre"><br><br>
+Etiqueta para abrir los formularios --> form
 
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Introduce tu contraseña"><br><br>
+En al action se pone la URL a la que enviaran los datos y el method es el método por el que se enviaran los datos, tenemos el POST y el GET, el GET los datos enviados se pueden ver en la URL, en cambio en el POST no se ven en la URL.
+```
+<form action="recepcion.php" method="post">
+```
+
+aaaaaa
+
+
+```
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" name="nombre" placeholder="Introduze tu nombre"><br><br>
+```
+       
 
         <fieldset>
             <legend>Idioma</legend>
@@ -280,17 +288,7 @@ id: Los utilizaremos para hacer enlaces en la misma página. Aquí debajo se pue
             <input type="radio" id="chino" name="idioma" value="Chino">
         </fieldset>
 
-        <fieldset>
-            <legend>Nacionalidad</legend>
-            <label for="espanola">Española</label>
-            <input type="checkbox" id="espanola" name="nacionalidad" value="espanola">
-
-            <label for="francesa">Francesa</label>
-            <input type="checkbox" id="francesa" name="nacionalidad" value="francesa">
-
-            <label for="canadiense">Canadiense</label>
-            <input type="checkbox" id="canadiense" name="nacionalidad" value="canadiense">
-        </fieldset>
+        
 
         <label for="observaciones">Observaciones</label><br>
             
