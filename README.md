@@ -232,3 +232,85 @@ Siempre comentar los codigos que escribamos.
 EN HTML existen muchas algunos elementos que hacen de conetenedores:
 Tenemos el div, section, article.
 Luegopodemos diivdir la pagina en header(encabezado), footer(pie de pagina)...
+
+#### Rutas relativas y rutas absolutas
+
+Ruta absoluta: especifica la ubicación completa comenzando desde la raiz.
+
+Ruta relativa: especifica la ubicación desde el punto en que nos encontramos. Utilizar siempre estas para que si le paso el código a alguien le vayan los enlaces de las imágenes y todo funcione correctamente.
+<br>
+<br>
+
+#### Más etiquetas de HTML
+id: Los utilizaremos para hacer enlaces en la misma página. Aquí debajo se puede observar un ejemplo. En el ejemplo si seleccionáramos el primer enlace (a) nos llevaría a la seccion1 que está situada debajo. Lo mismo pasaría si seleccionáramos el ultimo enlace, nos llevaría al principio de la página ya que es donde se encuentra el índice al que llama el enlace.
+
+```
+<h1 id="indice">INDICE</h1>
+<a href="#seccion1">Enlace a la primera sección</a>
+
+<h4 id="seccion1">Primera sección</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt voluptatum dolores aspernatur porro tempora, eveniet aut tenetur beatae a magnam quasi quis nihil ut perferendis? Consectetur aliquam cupiditate est?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt voluptatum dolores aspernatur porro tempora, eveniet aut tenetur beatae a magnam quasi quis nihil ut perferendis? Consectetur aliquam cupiditate est?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt voluptatum dolores aspernatur porro tempora, eveniet aut tenetur beatae a magnam quasi quis nihil ut perferendis? Consectetur aliquam cupiditate est?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nesciunt voluptatum dolores aspernatur porro tempora, eveniet aut tenetur beatae a magnam quasi quis nihil ut perferendis? Consectetur aliquam cupiditate est?</p>
+
+<a href="#indice">Volver al indice</a>
+```
+<br>
+<br>
+
+#### Formularios
+```
+<form action="recepcion.php" method="post"> --> Etiqueta para abrir el formulario, el action es apra poner la URL dopdne iran los datos del formulario.
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Introduze tu nombre"><br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Introduce tu contraseña"><br><br>
+
+        <fieldset>
+            <legend>Idioma</legend>
+            <label for="castellano">Castellano</label>
+            <input type="radio" id="castellano" name="idioma" value="Castellano">
+
+            <label for="castellano">Catalan</label>
+            <input type="radio" id="catalan" name="idioma" value="Catalan">
+
+            <label for="castellano">Chino</label>
+            <input type="radio" id="chino" name="idioma" value="Chino">
+        </fieldset>
+
+        <fieldset>
+            <legend>Nacionalidad</legend>
+            <label for="espanola">Española</label>
+            <input type="checkbox" id="espanola" name="nacionalidad" value="espanola">
+
+            <label for="francesa">Francesa</label>
+            <input type="checkbox" id="francesa" name="nacionalidad" value="francesa">
+
+            <label for="canadiense">Canadiense</label>
+            <input type="checkbox" id="canadiense" name="nacionalidad" value="canadiense">
+        </fieldset>
+
+        <label for="observaciones">Observaciones</label><br>
+            
+        <textarea name="observaciones" id="observaciones" placeholder="Introduce tus comentarios" cols="80" rows="4">
+        </textarea>
+        <br>
+        
+        <label for="ciudad">Ciudad</label><br>
+        <select name="ciudad" id="ciudad">
+            <option value="" disabled>Seleccione una ciudad</option>
+            <option value="Barcelona">Barcelona</option>
+            <option value="Madrid">Madrid</option>
+            <option value="Valencia">Valencia</option>
+            <option value="Sevilla">Sevilla</option>
+            <option value="Granada">Granada</option>
+            <option value="Murcia">Murcia</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Enviar datos</button> 
+    </form>
+```
+
