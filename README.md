@@ -68,11 +68,8 @@ Este texto esta en __*negrita y cursiva*__. __ * * __
 + Quinta opción de lista desordenada
 + Sexta opción de lista desordenada
 <br>
-<br>
 Hay que dejar un espacio en blanco para que siga en otra linea 
-
 <br>
-
 
 **Como mostrar código en un repositorio**
 
@@ -89,11 +86,12 @@ Hay que dejar un espacio en blanco para que siga en otra linea
 </body>
 </html>
 ```
+<br>
 
 ### Como poner un link
 [Pagina web de Jesuites Bellvitge](https://www.fje.edu/ca/fje "Titulo opcional")
 
-### Comom poner una imagen
+### Como poner una imagen
 ![Esto es una foto](https://inhispania.com/wp-content/uploads/2021/05/1.jpg "Esto es un foton de si")
 
 Una tabla:
@@ -103,86 +101,8 @@ Una tabla:
 |SMX2 |Curso 2324|25|
 |**ASIX1**|Curso 2425|33|
 |DAW2|Curso 2425|32|
+<br>
+<br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ççççççççççççççççççççççççççç
-Repo01 del curso 2425
-
-Texto de prueba
-
-Para los apuntes El github con el pages Markdown EL # para poner titulo. Si añado mas se ponen titulos más pequeños. 
-
-En el cmd el cd para moverse de ubicacion EL git clone (url).
-
-EL git init git branch (Para ver en que rama está el repositorio) git branch -M main (Le dice que la rama donde va a poner el rerpositorio es.main) 
-
-El git add (lo que quiero subir) EL git add . (Para subir todo, om para cuando es un pequeño proyecto).
-
-EL git commit -m "Texto de que estamos subiendo/se ha modificado" (Para hacer un commit el .-m es el nombre identificativo del cambio).
-
-El git push origin main (Para subir todos los cambios al repositrio de github. del origen al destino (origin --> main)).
-
-El git pull para traer de gtihub a mi ordenador.
-
-
-Apuntes:
-
-github:
-
-
-markdown:
-
-El # Genera encabezados, cuantos mas ## ponga mas pequeño se hace el encabezado. Máximo hasta 6#.
-Para poner en negrita o en cursiva se utilizan los guiones (-a-) y los *a*:
-En negrita:
-**Hola**
-o
-__Hola__
-En cursiva:
-*Hola*
-o
-_Hola_
-
-Combinados para crear negrita y en cursiva.
-__*Hola*__ 
-**_Hola_**
-
-copiar las lista ordenadas y dsordenadas del otro. y añadir la opcion del +, mira el aprendizaje markdown vago.
-HTML:
-
-<h1>
-
+## Tercer capítulo: HTML 
 
