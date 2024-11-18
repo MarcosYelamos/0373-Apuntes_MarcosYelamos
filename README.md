@@ -1,4 +1,70 @@
-# Apunteslenguajemarcasmarcos
+# ApuntesASIX1
+
+## Primer capítulo: GITHUB Y PAGES
+AL crear un repositorio en Github siempre hay que inicializarlo añadiendo el "READE.md".
+
+"IMPORTANTE": Debemos estar en un cmd para ejecutar los comandos y tener en cuenta la ruta de donde estamos, preferiblemente en la ruta donde se va a meter el reposiorio o donde ya esta.
+
+__Para clonar el repositorio de github y poder trabajarlo en local:__
+```
+"git clone" (ruta del repositorio a clonar).
+```
+Para añadir todo lo que hemos modificado habra que ejecutar estos 3 comandos:
+```
+git add.(Añadir las cosas nuevas)
+git commit -m "(Nombre del commit)"
+git push origin main (Subir del origen a la rama main de github)
+```
+Una vez ejecutados si fueramos al github veriamos que todo lo que hemos hecho en local se habría subido.
+<br>
+<br>
+
+#### PAGES
+Para hacer que un repositorio de github se transforme en pagina web iremos a configuración (settings), en el menú de la izquierda seleccionaremos pages.
+Seleccionamos la rama(Branch) Main y le damos a guardar (save). Al hacer esto y esperar un poco se nos creará un enlace a nuestra página.
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ççççççççççççççççççççççççççç
 Repo01 del curso 2425
 
 Texto de prueba
@@ -44,3 +110,5 @@ copiar las lista ordenadas y dsordenadas del otro. y añadir la opcion del +, mi
 HTML:
 
 <h1>
+
+
