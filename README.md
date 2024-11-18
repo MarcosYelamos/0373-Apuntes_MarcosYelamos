@@ -22,7 +22,6 @@ EL git init git branch (Para ver en que rama está el repositorio) git branch -M
 
 El git pull para traer de gtihub a mi ordenador.
 <br>
-<br>
 
 #### PAGES
 Para hacer que un repositorio de github se transforme en pagina web iremos a configuración (settings), en el menú de la izquierda seleccionaremos pages.
@@ -33,15 +32,77 @@ Seleccionamos la rama(Branch) Main y le damos a guardar (save). Al hacer esto y 
 ## Segundo capítulo: Markdown 
 
 (#) Esto sirve para poner encabezados, hay 6 niveles como en HTML, al poner este encabezado te pone un enlace en el título.
+```
 ## Segundo nivel de encabezados
 ### Tercero nivel de encabezados
 #### Cuarto nivel de encabezados
 ##### Quinto nivel de encabezados
 ###### Sexto nivel de encabezados
+```
+
+Este texto esta en *cursiva*- * *
+
+Este texto esta en _cursiva_. _ _
+
+Este texto esta en __negrita__. __ __
+
+Este texto esta en **negrita**. ** **
+
+Este texto esta en **_negrita y cursiva_**. ** _ _ ** 
+
+Este texto esta en __*negrita y cursiva*__. __ * * __
+
+1. Primera opción de menu. Esto es una lista ordenada.
+2. Segunda opción de menu.
+3. Tercera opción de menu.
+
+(La lista desordenada se hace con el - , con * y con el +)
+* Primera opción de lista desordenada
+* Segunda opción de lista desordenada
+- Tercera opción de lista desordenada
+    1. Primera submenú 
+    2. Segundo submenú
+- Cuarta opción de lista desordenada
+    * Tercer submenú
+    * Cuarto submenú
++ Quinta opción de lista desordenada
++ Sexta opción de lista desordenada
+<br>
+<br>
+Hay que dejar un espacio en blanco para que siga en otra linea 
+
+<br>
 
 
+**Como mostrar código en un repositorio**
 
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+```
 
+### Como poner un link
+[Pagina web de Jesuites Bellvitge](https://www.fje.edu/ca/fje "Titulo opcional")
+
+### Comom poner una imagen
+![Esto es una foto](https://inhispania.com/wp-content/uploads/2021/05/1.jpg "Esto es un foton de si")
+
+Una tabla:
+
+|Titulo 1| Titulo 2| Titulo 3 |
+|---------------|:------------:|---------:|
+|SMX2 |Curso 2324|25|
+|**ASIX1**|Curso 2425|33|
+|DAW2|Curso 2425|32|
 
 
 
