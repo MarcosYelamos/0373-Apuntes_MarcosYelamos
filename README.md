@@ -266,6 +266,7 @@ En al action se pone la URL a la que enviaran los datos y el method es el métod
 ```
 <form action="recepcion.php" method="post">
 ```
+<br>
 
 aaaaaa
 
