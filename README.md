@@ -17,6 +17,11 @@ git push origin main (Subir del origen a la rama main de github)
 ```
 Una vez ejecutados si fueramos al github veriamos que todo lo que hemos hecho en local se habría subido.
 
+__Otros comandos de git:__
+EL git init git branch (Para ver en que rama está el repositorio) git branch -M main (Le dice que la rama donde va a poner el rerpositorio es.main).
+
+El git pull para traer de gtihub a mi ordenador.
+
 
 #### PAGES
 Para hacer que un repositorio de github se transforme en pagina web iremos a configuración (settings), en el menú de la izquierda seleccionaremos pages.
