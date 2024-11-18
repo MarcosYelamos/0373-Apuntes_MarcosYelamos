@@ -16,15 +16,22 @@ git commit -m "(Nombre del commit)"
 git push origin main (Subir del origen a la rama main de github)
 ```
 Una vez ejecutados si fueramos al github veriamos que todo lo que hemos hecho en local se habría subido.
-<br>
-<br>
+
 
 #### PAGES
 Para hacer que un repositorio de github se transforme en pagina web iremos a configuración (settings), en el menú de la izquierda seleccionaremos pages.
 Seleccionamos la rama(Branch) Main y le damos a guardar (save). Al hacer esto y esperar un poco se nos creará un enlace a nuestra página.
-<br>
-<br>
 
+
+
+## Segundo capítulo: 
+
+(#) Esto sirve para poner encabezados, hay 6 niveles como en HTML, al poner este encabezado te pone un enlace en el título.
+## Segundo nivel de encabezados
+### Tercero nivel de encabezados
+#### Cuarto nivel de encabezados
+##### Quinto nivel de encabezados
+###### Sexto nivel de encabezados
 
 
 
