@@ -21,7 +21,7 @@ __Otros comandos de git:__
 EL git init git branch (Para ver en que rama está el repositorio) git branch -M main (Le dice que la rama donde va a poner el rerpositorio es.main).
 
 El git pull para traer de gtihub a mi ordenador.
-
+<br>
 
 
 
