@@ -170,5 +170,65 @@ A la hora de hacer código HTML queremos que haya un orden para que sea legible 
 
 No todas la setiquetas se cierran o se abren.
 <br>
+<br>
 
 #### Organización de los archivos
+En la raíz siempre pondremos el index.html, luego podremos tener carpetas para las diferentes secciones de la página web, una para las imágenes, una para el segundo plato y otra para el postre por ejemplo(caso de mi menú saludable).
+<br>
+<br>
+
+#### Etiquetas básicas de HTML
+```
+h1 --> encabezado, tiene 6 niveles, cambian segun el numero, el 1 es el mas grande.
+
+ol --> Lista ordenada
+    li --> va dentro de la lista ordenada para definir cada elemento.
+Ej:
+<ol>
+    <li>Primer elemento</li>
+    <li>Segundo elemento</li>
+    <li>Tercer elemento</li>
+</ol>
+
+ul --> Lista desordenada, lo mismo que la orenadda pero que con u.
+Ej:
+<ul>
+    <li>Primer elemento</li>
+    <li>Segundo elemento</li>
+    <li>Tercer elemento</li>
+</ul>
+
+Tambien se pueden meter listas dentro de otras
+Ej:
+<ol>
+    <li>Primer elemento de nvl 1</li>
+    <ul>
+        <li>Primer elemento de nivel 2</li>
+        <li>Segundo elemento de nivel 2</li>
+        <li>Tercer elemento de nivel 2</li>
+    </ul>
+    <li>Segundo elemento de nvl 1</li>
+    <li>Tercer elemento de nvl 1</li>
+</ol>
+
+<a href=""></a> --> para hacer links, en href se pone el link de la ruta donde se quiere llegar.
+Ej:
+<a href="http://google.com" alt ="Texto alternativo" target="_blank">Este es el enlace a google</a>
+
+alt: es el texto alternativo que sale cuand pasas por encima.
+
+target blank: abre una pestaña nueva con el enlace
+
+blockquote --> para poner una cita, te lo escribe a la derecha un poco, el texto.
+
+<!-- Ajajajajajajajaj esto es un coemntario--> --> esto es para poner comentarios jajajajajaja.
+Siempre comentar los codigos que escribamos.
+
+<img src="" alt=""> --> para poner -> las imagenes, en src se pone el encale o la ruta y el alt es el texto alternativo. Los nombres de laas imaganes que  no tengan espacios.
+
+<strong> para poner en negrita u texto y <u> para subrayarlo.
+```
+
+EN HTML existen muchas algunos elementos que hacen de conetenedores:
+Tenemos el div, section, article.
+Luegopodemos diivdir la pagina en header(encabezado), footer(pie de pagina)...
