@@ -494,9 +494,9 @@ Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id
 
 Afectaria a ``` <p id="example"> ```
 <br>
+<br>
 
 Selector de clase
-
 Corresponde con todos los elementos que tengan el atributo class.
 ``` 
 .example {
