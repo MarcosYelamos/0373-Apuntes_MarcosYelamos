@@ -1,3 +1,10 @@
+<style>
+  body {
+    text-align: left !important;
+    color: inherit !important;
+  }
+</style>
+
 # ApuntesASIX1
 
 ## Primer capítulo: GITHUB Y PAGES
@@ -352,7 +359,7 @@ Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
 
 - Estilo "inline". En la propia etiqueta.
 ```
-<p style="text-align:center; color:red">Paràgraf centrat vermell</p>
+<!-- <p style="text-align:center; color:red">Paràgraf centrat vermell</p> -->
 ```
 <br>
 
