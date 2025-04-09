@@ -608,3 +608,17 @@ h1+h2 {
 ```
 <br>
 
+Pseudoclases
+<br>
+Las pseudoclases se utilizan para definir estilos basados en los estados de los elementos, no en los elementos en sí.
+<br>
+Diferentes pseudoclases y el estado del enlace que seleccionan:
+<br>
+
+- :link: el estado normal por defecto de los enlaces. Cómo se ven por primera vez.
+- :visited: enlaces que ya se han visitado con el navegador que se está usando.
+- :focus: enlaces, campos de formulario u otros elementos que tienen en ese momento el foco; podría ser que se haya hecho clic en él.
+- :hover: enlaces que tienen en ese momento el ratón encima de ellos.
+
+<br>
+
