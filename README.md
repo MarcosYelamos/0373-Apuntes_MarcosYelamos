@@ -453,16 +453,22 @@ p{
 }
 ```
 p es el selector, que tiene dos declaraciones con la estructura propiedad: valor;
+<br>
 
 #### Comentarios
-Igual que en HTMl en CSS podemos poner comentarios, en este caso se escriben asi:
+Igual que en HTML, en CSS podemos poner comentarios. En este caso, se escriben así:
 ```
 /* Esto es un comentario en CSS */
 ```
 <br>
 
-####
-
+#### Agrupar selectores
+Para no repetir información, podemos agrupar las declaraciones de estilos para aplicarlas a varios elementos a la vez:
+```
+h1 {color:red;}
+p{color:red;}       -->h1,p{color:red;} 
+```
+<br>
 
 
 
