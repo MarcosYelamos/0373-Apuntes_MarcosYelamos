@@ -689,6 +689,8 @@ Un ejemplo de una media query:
     /* Declaraciones CSS */
 }
 ```
+<br>
+
 En las media queries se pueden utilizar condiciones y también combinarlas utilizando más de una. Se pueden definir características para determinar resoluciones y anchos de pantalla, pudiendo determinar la orientación del dispositivo: (```portrait```: vertical o ```landscape```: horizontal).
 <br>
 
