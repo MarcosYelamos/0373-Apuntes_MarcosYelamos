@@ -471,6 +471,16 @@ p{color:red;}       -->h1,p{color:red;}
 ```
 <br>
 
+### Tipos de selectores básicos
+Selector de elementos (selector de tipo):
+Hace referencia a todos los elementos con ese nombre en la página. El ejemplo afectará a todos los <a> del documento HTML.
+``` 
+a {
+    color:red;
+}
+```
+<br>
+
 
 
 
