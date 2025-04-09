@@ -508,7 +508,6 @@ Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id
     property2: value2;
 }
 ```
-<br>
 
 Afectaria a ``` <p id="example"> ```
 <br>
