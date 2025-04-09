@@ -331,5 +331,14 @@ El button es para hacer tipos de botones. El type es para definir qué tipo de b
 <br>
 
 ## Cuarto capítulo: CSS
-El CSS se encarga de aplicar los estilos a los HTMLs, el css simplemente son hojas de estilo que se encargan justamente de estilizar.
+El CSS se encarga de aplicar estilos a los documentos HTML. Son hojas de estilo que, justamente, tienen la función de dar formato y diseño al contenido.
 <br> 
+
+CSS tiene sus ventajas:
+- Posibilidad de mantener el código más fácilmente
+- Es un lenguaje sencillo
+- Se pueden definir diferentes hojas de estilo para un solo documento
+- Se pueden reutilizar entre varios documentos X(HTML)
+- ...
+  
+  
