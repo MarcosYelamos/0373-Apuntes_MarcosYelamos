@@ -504,7 +504,6 @@ Corresponde con todos los elementos que tengan el atributo class.
     property2: value2;
 }
 ```
-<br>
 
 Afectaria a:
 ``` 
