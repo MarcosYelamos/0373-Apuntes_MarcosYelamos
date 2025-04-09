@@ -629,7 +629,7 @@ No afectan a todo el elemento, sino que permiten añadir estilos a una parte con
 Por ejemplo, ```::first-line``` selecciona solo la primera línea del elemento especificado por el selector.
 
 ```
-/* Selecciona solo la primera línea de un <p> */
+<!-- /* Selecciona solo la primera línea de un <p> */ -->
 p::first-line {
     color:red;
 }
