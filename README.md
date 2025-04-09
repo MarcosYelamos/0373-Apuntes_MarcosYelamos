@@ -588,4 +588,23 @@ div em {
 ```
 <br>
 
-Selectores
+Selectores de hermanos adyacentes
+<br>
+Permite seleccionar el elemento concreto que aparece directamente después de otro elemento concreto al mismo nivel de la jerarquía.
+<br>
+Reducimos el espacio entre el h1 y el primer h2:
+
+```
+HTML: 
+<h1> Encabezado 1 </h1>
+<h2> Encabezado 2 (hermano adyacente) </h2>
+<h2> Encabezado 2 (hermano no adyacente) </h2>
+
+
+CSS:
+h1+h2 {
+    margin-top: -5mm;
+}
+```
+<br>
+
