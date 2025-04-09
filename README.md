@@ -542,8 +542,21 @@ img [src="alert.gif"] {
 
 Selectores de hijos
 <br>
-
+Sirven para seleccionar elementos que son hijos directos de otros elementos.
 ```
-
+h3>strong {
+    color:blue;
+}
 ```
 <br>
+O también se puede aplicar el estilo directamente al hijo que queremos, indicando el número (orden):
+```
+HTML:
+<div class="parent">
+  <p>Primer hijo (p)</p>
+  <div>Segundo hijo (div)</div>
+  <span>Tercer hijo (span)</span>
+  <div>Cuarto hijo (div)</div>
+  <p>Quinto hijo (p)</p>
+</div>
+```
