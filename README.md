@@ -524,3 +524,16 @@ Sirve para seleccionar todos los elentos de la página.
 }
 ```
 <br>
+
+Selector de atributos
+<br>
+Permite seleccionar elementos en función de los atributos que contienen. Los atributos pueden ser más útiles si se tiene en cuenta que se puede hacer la selección a partir del valor del atributo.
+```
+img[alt] {
+    border: 1px solid #000000;
+}
+
+img[src="alert.gif"] {
+    border: 1px solid #000000;
+}
+```
