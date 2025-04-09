@@ -443,7 +443,17 @@ Una regla con ``` !important ``` sobrescribe cualquier otra regla, da igual la e
 Una hoja de estilos es un conjunto de reglas para definir la estética de los documentos (X)HTML. Cada regla está formada por un selector y un conjunto de declaraciones. A su vez, una declaración está formada por una propiedad y su valor asociado.
 <br>
 <br>
+
 Un selector nos sirve para definir a qué le queremos aplicar las declaraciones de esa regla.
+Ejemplo:
+```
+p{
+    font-size: 10pt;
+    background-color:gray;
+}
+```
+p es el selector, que tiene dos declaraciones con la estructura propiedad: valor;
+
 
 
 
