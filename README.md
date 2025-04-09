@@ -392,6 +392,7 @@ La prioridad sería así:
 inline > interno > externo
 También hay que tener en cuenta que el orden de los estilos es importante, teniendo más prioridad lo situado más abajo en el documento. En caso de que haya declaraciones sobre un mismo elemento en diferentes ámbitos que no sean contradictorias, se sumarán.
 <br>
+<br>
 Entrando más a fondo, tenemos la especificidad, que es un sistema de puntuación para ver cuál es más importante, por así decirlo.
 Si dos selectores tienen la misma especificidad, gana el último declarado en el CSS.
 
@@ -432,6 +433,12 @@ Ejemplo práctico:
 - .box → Especificidad = 10
 - #main → Especificidad = 100
 - #main.box h1 → Especificidad = 111
+<br>
+
+Reglas importantes:
+Una regla con ``` !important ``` sobrescribe cualquier otra regla, da igual la especificidad.
+
+
 
 
 
