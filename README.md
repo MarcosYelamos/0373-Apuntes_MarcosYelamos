@@ -670,6 +670,7 @@ Características principales:
 - Rejillas fluidas: los valores de los contenedores se basan en porcentajes en lugar de en valores fijos.
 - Imágenes y fuentes escalables: se ajustan para mantener la proporción y legibilidad en diferentes dispositivos.
 <br>
+<br>
 
 Media queries
 <br>
