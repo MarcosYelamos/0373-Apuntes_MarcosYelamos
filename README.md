@@ -454,7 +454,14 @@ p{
 ```
 p es el selector, que tiene dos declaraciones con la estructura propiedad: valor;
 
+#### Comentarios
+Igual que en HTMl en CSS podemos poner comentarios, en este caso se escriben asi:
+```
+/* Esto es un comentario en CSS */
+```
+<br>
 
+####
 
 
 
