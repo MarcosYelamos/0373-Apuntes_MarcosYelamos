@@ -639,5 +639,18 @@ p::first-line {
 #### Display Flex
 Flex (también llamado flexbox) es un sistema de elementos flexibles en el que los elementos HTML se adaptan y colocan automáticamente, y es más fácil personalizar los diseños de una página web.
 <br>
+<br>
 
-## Quinto capítulo: Responsive
+## Quinto capítulo: Diseño Responsive
+El diseño responsive es una técnica de diseño web que permite que el sitio web se adapte automáticamente a diferentes tamaños de pantalla y dispositivos, como podrían ser un ordenador, teléfonos, tablets, etc.
+<br>
+
+Características principales:
+<br>
+
+- Flexible y adaptable: el diseño y los elementos se adaptan al tamaño del dispositivo.
+- Media queries: se usan para aplicar estilos específicos según las propiedades de la pantalla (ancho, alto, etc.).
+- Rejillas fluidas: los valores de los contenedores se basan en porcentajes en lugar de en valores fijos.
+- Imágenes y fuentes escalables: se ajustan para mantener la proporción y legibilidad en diferentes dispositivos.
+<br>
+
