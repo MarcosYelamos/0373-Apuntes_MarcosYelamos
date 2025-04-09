@@ -328,3 +328,8 @@ El button es para hacer tipos de botones. El type es para definir qué tipo de b
 ```
 <button type="submit">Enviar datos</button> 
 ```
+<br>
+
+## Cuarto capítulo: CSS
+El CSS se encarga de aplicar los estilos a los HTMLs, el css simplemente son hojas de estilo que se encargan justamente de estilizar.
+<br> 
