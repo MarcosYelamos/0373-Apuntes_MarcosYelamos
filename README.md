@@ -493,6 +493,26 @@ Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id
 <br>
 
 Afectaria a ``` <p id="example"> ```
+<br>
+
+Selector de clase
+
+Corresponde con todos los elementos que tengan el atributo class.
+``` 
+.example {
+    property: value ;
+    property2: value2;
+}
+```
+<br>
+
+Afectaria a:
+``` 
+<p class="example">
+<li class="example">
+<div class="example">
+```
+<br>
 
 
 
