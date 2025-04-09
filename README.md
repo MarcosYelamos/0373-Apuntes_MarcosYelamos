@@ -654,3 +654,34 @@ Características principales:
 - Imágenes y fuentes escalables: se ajustan para mantener la proporción y legibilidad en diferentes dispositivos.
 <br>
 
+Media queries
+<br>
+Las media queries permiten aplicar estilos diferentes a una página según las características del dispositivo o la ventana del navegador (ancho, alto, la orientación o la resolución de la pantalla). Sirven para crear sitios web responsive (se adaptan).
+<br>
+Cosas a tener en cuenta son que las media queries siempre se ponen al final del documento CSS y, si se necesita modificar alguna cosa, no se pone directamente.
+<br>
+Un ejemplo de una media query:
+
+```
+@media (max-width: 768px) {
+    background-color:green;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* Declaraciones CSS */
+}
+```
+En las media queries se pueden utilizar condiciones y también combinarlas utilizando más de una. Se pueden definir características para determinar resoluciones y anchos de pantalla, pudiendo determinar la orientación del dispositivo: (```portrait```: vertical o ```landscape```: horizontal).
+<br>
+
+Algunos de los parámetros que se pueden utilizar al hacer condiciones son:
+<br>
+
+- width
+- height
+- device-width
+- device-height
+- orientation(portrait/landscape)
+- max-width
+- min-width
+
