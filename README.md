@@ -364,15 +364,18 @@ Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
 <br>
 
 - Estilo "interno". En la cabecera del documento (X)HTML.
+
 ```
-<!-- <head>
-    <!-- <style>
-        <!-- p {
-            <!-- text-align:center;
-            color:red; -->
-        } -->
-    </style> -->
-</head> -->
+<!-- 
+<head>
+    <style>
+        p {
+            text-align: center;
+            color: red;
+        }
+    </style>
+</head>
+-->
 ```
 <br>
 
@@ -388,7 +391,7 @@ El fichero estilos.css tendria lo siguiente:
 ```
 p {
     text-align:center;
-            <!-- color:red; -->
+            color:red; 
 }
 ```
 <br>
@@ -491,6 +494,7 @@ a {
 Selector de id:
 <br>
 Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id ha de distinguir de forma inequivoca a un único elemento HTMl.
+
 ``` 
 #example {
     property: value ;
