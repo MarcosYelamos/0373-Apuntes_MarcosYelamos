@@ -454,6 +454,7 @@ p{
 ```
 p es el selector, que tiene dos declaraciones con la estructura propiedad: valor;
 <br>
+<br>
 
 #### Comentarios
 Igual que en HTML, en CSS podemos poner comentarios. En este caso, se escriben así:
