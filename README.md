@@ -532,7 +532,8 @@ Permite seleccionar elementos en función de los atributos que contienen. Los at
 img[alt] {
     border: 1px solid #000000;
 }
-<br>
+```
+```
 img [src="alert.gif"] {
     border: 1px solid #000000;
 }
