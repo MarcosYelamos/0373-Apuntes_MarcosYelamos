@@ -483,7 +483,7 @@ a {
 
 Selector de id:
 <br>
-Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id ha de distinguir de forma inequivoca a un unico elemento HTMl.
+Corresponde a todos los elementos HTML que tienen un atributo id. El atributo id ha de distinguir de forma inequivoca a un único elemento HTMl.
 ``` 
 #example {
     property: value ;
@@ -497,6 +497,7 @@ Afectaria a ``` <p id="example"> ```
 <br>
 
 Selector de clase
+<br>
 Corresponde con todos los elementos que tengan el atributo class.
 ``` 
 .example {
@@ -513,6 +514,13 @@ Afectaria a:
 ```
 <br>
 
-
-
-
+#### Tipos de selectores avanzados
+Selector universal:
+<br>
+Sirve para seleccionar todos los elentos de la página.
+```
+* {
+    border: 1px solid #000000;
+}
+```
+<br>
