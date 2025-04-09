@@ -366,12 +366,12 @@ Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
 - Estilo "interno". En la cabecera del documento (X)HTML.
 ```
 <!-- <head>
-    <style>
-        p {
+    <!-- <style>
+        <!-- p {
             <!-- text-align:center;
             color:red; -->
-        }
-    </style>
+        } -->
+    </style> -->
 </head> -->
 ```
 <br>
