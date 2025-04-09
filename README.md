@@ -401,8 +401,11 @@ p {
 
 #### Prioridad
 Si hay varias declaraciones afectando al mismo elemento HTML, alguna de ellas tiene más preferencia que otra.
+<br>
 La prioridad sería así:
+<br>
 inline > interno > externo
+<br>
 También hay que tener en cuenta que el orden de los estilos es importante, teniendo más prioridad lo situado más abajo en el documento. En caso de que haya declaraciones sobre un mismo elemento en diferentes ámbitos que no sean contradictorias, se sumarán.
 <br>
 <br>
