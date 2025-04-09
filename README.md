@@ -551,7 +551,7 @@ h3>strong {
 <br>
 O también se puede aplicar el estilo directamente al hijo que queremos, indicando el número (orden).
 <br>
-En este caso el estilo se plaicaria al cuarto hijo directo del elemento padre, que es div:
+En este caso, el estilo se aplicaría al cuarto hijo directo del elemento padre, que es div:
 
 ```
 HTML:
@@ -568,3 +568,24 @@ CSS:
     color: red;
 }
 ```
+<br>
+
+Selectores de descendientes
+<br>
+Es similar a los selectores de hijos, pero a diferencia de los selectores de hijo, estos selectores eligen los elementos indicados en cualquier punto de la jerarquía del elemento.
+
+```
+HTML:
+<div>
+  <em>hello</em>
+  <p>In this paragraph I will say <em>goodbye</em>.</p>
+</div>
+
+CSS:
+div em { 
+  /* En este caso, se seleccionarán los dos elementos en los que hay. */
+}
+```
+<br>
+
+Selectores
