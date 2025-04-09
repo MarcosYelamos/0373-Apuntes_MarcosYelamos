@@ -381,7 +381,7 @@ El fichero estilos.css tendria lo siguiente:
 ```
 p {
     text-align:center;
-            color:red;
+            <!-- color:red; -->
 }
 ```
 <br>
@@ -631,7 +631,7 @@ Por ejemplo, ```::first-line``` selecciona solo la primera línea del elemento e
 ```
 <!-- /* Selecciona solo la primera línea de un <p> */ -->
 p::first-line {
-    color:red;
+    <!-- color:red; -->
 }
 ```
 <br>
