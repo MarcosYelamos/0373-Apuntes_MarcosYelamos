@@ -361,8 +361,8 @@ Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
 <head>
     <style>
         p {
-            text-align:center;
-            color:red;
+            <!-- text-align:center;
+            color:red; -->
         }
     </style>
 </head>
