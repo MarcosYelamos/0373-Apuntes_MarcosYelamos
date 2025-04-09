@@ -636,4 +636,8 @@ p::first-line {
 ```
 <br>
 
-####
+#### Display Flex
+Flex (también llamado flexbox) es un sistema de elementos flexibles en el que los elementos HTML se adaptan y colocan automáticamente, y es más fácil personalizar los diseños de una página web.
+<br>
+
+## Quinto capítulo: Responsive
