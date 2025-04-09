@@ -340,5 +340,9 @@ CSS tiene sus ventajas:
 - Se pueden definir diferentes hojas de estilo para un solo documento
 - Se pueden reutilizar entre varios documentos X(HTML)
 - ...
-  
-  
+
+<br>
+Y su mayor inconveniente:
+Los navegadores no se comportan de la misma forma ante una misma hoja de estilo.
+
+<br>
