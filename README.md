@@ -386,6 +386,53 @@ p {
 ```
 <br>
 
+#### Prioridad
+Si hay varias declaraciones afectando al mismo elemento HTML, alguna de ellas tiene más preferencia que otra.
+La prioridad sería así:
+inline > interno > externo
+También hay que tener en cuenta que el orden de los estilos es importante, teniendo más prioridad lo situado más abajo en el documento. En caso de que haya declaraciones sobre un mismo elemento en diferentes ámbitos que no sean contradictorias, se sumarán.
+<br>
+Entrando más a fondo, tenemos la especificidad, que es un sistema de puntuación para ver cuál es más importante, por así decirlo.
+Si dos selectores tienen la misma especificidad, gana el último declarado en el CSS.
+
+- Inline styles (atributo style en HTML):
+- Especificidad = 1000.
+```
+Ejemplo: <div style="color: red;">
+```
+<br>
+
+- Selectores de ID (#id):
+- Especificidad = 100.
+```
+Ejemplo: #header.
+```
+<br>
+
+- Selectores de clase, atributos y pseudoclases (.class, [attr=value], :hover): 
+- Especificidad = 10.
+```
+Ejemplo: .main, [type="text"], :focus.
+```
+<br>
+
+- Selectores de elementos y pseudoelementos (h1, p. ::before):
+- Especificidad = 1.
+```
+Ejemplo: h1, p.
+```
+<br>
+
+- Universal selector ("), combinadores (+, >,-)y pseudo-clases universales
+(:is, not) no suman especificidad por sí mismos.
+<br>
+
+Ejemplo práctico:
+- h1 → Especificidad = 1
+- .box → Especificidad = 10
+- #main → Especificidad = 100
+- #main.box h1 → Especificidad = 111
+
 
 
 
