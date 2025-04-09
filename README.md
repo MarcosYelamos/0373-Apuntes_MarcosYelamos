@@ -615,10 +615,25 @@ Las pseudoclases se utilizan para definir estilos basados en los estados de los 
 Diferentes pseudoclases y el estado del enlace que seleccionan:
 <br>
 
-- :link: el estado normal por defecto de los enlaces. Cómo se ven por primera vez.
+- ```:link```: el estado normal por defecto de los enlaces. Cómo se ven por primera vez.
 - :visited: enlaces que ya se han visitado con el navegador que se está usando.
 - :focus: enlaces, campos de formulario u otros elementos que tienen en ese momento el foco; podría ser que se haya hecho clic en él.
 - :hover: enlaces que tienen en ese momento el ratón encima de ellos.
 
 <br>
 
+Pseudoelementos
+<br>
+No afectan a todo el elemento, sino que permiten añadir estilos a una parte concreta del elemento.
+<br>
+Por ejemplo, ```::first-line``` selecciona solo la primera línea del elemento especificado por el selector.
+
+```
+/* Selecciona solo la primera línea de un <p> */
+p::first-line {
+    color:red;
+}
+```
+<br>
+
+####
