@@ -549,14 +549,22 @@ h3>strong {
 }
 ```
 <br>
-O también se puede aplicar el estilo directamente al hijo que queremos, indicando el número (orden):
+O también se puede aplicar el estilo directamente al hijo que queremos, indicando el número (orden).
+<br>
+En este caso el estilo se plaicaria al cuarto hijo directo del elemento padre, que es div:
+
 ```
 HTML:
 <div class="parent">
-  <p>Primer hijo (p)</p>
-  <div>Segundo hijo (div)</div>
-  <span>Tercer hijo (span)</span>
-  <div>Cuarto hijo (div)</div>
-  <p>Quinto hijo (p)</p>
+    <p>Primer hijo (p)</p>
+    <div>Segundo hijo (div)</div>
+    <span>Tercer hijo (span)</span>
+    <div>Cuarto hijo (div)</div>
+    <p>Quinto hijo (p)</p>
 </div>
+
+CSS:
+.parent :nth-child(4) {
+    color: red;
+}
 ```
