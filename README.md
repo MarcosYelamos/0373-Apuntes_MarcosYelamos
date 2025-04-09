@@ -454,6 +454,7 @@ Ejemplo práctico:
 Reglas importantes:
 Una regla con ``` !important ``` sobrescribe cualquier otra regla, da igual la especificidad.
 <br>
+<br>
 
 #### Estructura
 Una hoja de estilos es un conjunto de reglas para definir la estética de los documentos (X)HTML. Cada regla está formada por un selector y un conjunto de declaraciones. A su vez, una declaración está formada por una propiedad y su valor asociado.
