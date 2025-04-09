@@ -334,6 +334,7 @@ El button es para hacer tipos de botones. El type es para definir qué tipo de b
 El CSS se encarga de aplicar estilos a los documentos HTML. Son hojas de estilo que, justamente, tienen la función de dar formato y diseño al contenido.
 <br> 
 
+#### Ventajas e inconvenientes
 CSS tiene sus ventajas:
 - Posibilidad de mantener el código más fácilmente
 - Es un lenguaje sencillo
@@ -341,8 +342,50 @@ CSS tiene sus ventajas:
 - Se pueden reutilizar entre varios documentos X(HTML)
 - ...
 
-<br>
 Y su mayor inconveniente:
 Los navegadores no se comportan de la misma forma ante una misma hoja de estilo.
 
 <br>
+
+#### Ubicación
+Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
+
+- Estilo "inline". En la propia etiqueta.
+```
+<p style="text-align:center; color:red">Paràgraf centrat vermell</p>
+```
+<br>
+
+- Estilo "interno". En la cabecera del documento (X)HTML.
+```
+<head>
+    <style>
+        p {
+            text-align:center;
+            color:red;
+        }
+    </style>
+</head>
+```
+<br>
+
+- Estilo "externo". En un documento externo.
+```
+<head>
+    <link rel="stylesheet" href="estils.css" type="text/css" />
+</head>
+```
+<br>
+
+El fichero estilos.css tendria lo siguiente:
+```
+p {
+    text-align:center;
+            color:red;
+}
+```
+<br>
+
+
+
+
