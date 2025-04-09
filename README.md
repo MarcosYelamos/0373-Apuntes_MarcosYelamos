@@ -380,10 +380,13 @@ Los estilos pueden estar asociados a los elementos desde ubicaciones diferentes.
 <br>
 
 - Estilo "externo". En un documento externo.
+  
 ```
+<!--
 <head>
     <link rel="stylesheet" href="estils.css" type="text/css" />
 </head>
+-->
 ```
 <br>
 
